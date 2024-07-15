@@ -22,6 +22,7 @@ const FileUpload = () => {
     const options = {
       headers: {
         'Content-Type': file.type,
+        'x-amz-acl': 'public-read', 
       },
     };
 
